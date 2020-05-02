@@ -1,0 +1,117 @@
+body{
+    background-color: darkslategray;
+    background: url(https://d1vhqlrjc8h82r.cloudfront.net/07-15-2019/t_597b8f3574c549b19b6768b8022a1601_name_shopping_cart_grocery_store_1523039615308_11890723_ver1_0.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+.heading{
+    background-color: dimgray;
+}
+h1{
+   color: rgb(181, 214, 243);
+   text-shadow: 2px 1px 5px black;
+   font-family: 'Josefin Sans', sans-serif;
+   text-transform: uppercase;
+   padding: 2rem;
+}
+
+
+td,th {
+   color: white;
+   text-align: center; 
+
+ }
+#tab{
+   visibility: hidden;
+}
+table{
+   background: rgb(6, 12, 81);
+}
+
+ 
+.bounceInDown {
+   animation-duration: 1.75s;
+   animation-delay: 0s;
+   animation-iteration-count: 1;
+ }
+
+ tr:nth-child(even) {
+   background-color: darkgray;
+ } 
+ tr:nth-child(odd) {
+   background-color:gray; 
+ }
+
+ 
+ 
+/* ***********SELECT-TAG********** */
+
+ select {
+   
+   border:0!important;
+   background: #5c6664;
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+   font-size: 1em;
+   font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   width: 20em;
+   height: 3em;
+   line-height: 3;
+   background: #5c6664;
+   overflow: hidden;
+   border-radius: 1em;
+}
+.select::after {
+   content: '\25BC';
+   position: absolute;
+   color: rgb(255, 255, 255);
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: #2b2e2e;
+   cursor:pointer;
+   pointer-events:none;
+  transition:.25s all ease;
+}
+.select:hover::after {
+   color: #23b499;
+}
+
+.select1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+/* ***********FOOTER********** */
+
+.footer-div{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+.footer-copyright{
+   background-color: rgb(74, 78, 93);
+   
+}
+.footer-copyright p{
+   font-size: small;
+   color: white;
+   margin-bottom: 0rem;
+}

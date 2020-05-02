@@ -1,0 +1,102 @@
+[
+    {
+        "slNo":1,
+        "name":"Rice",
+        "quantity":10,
+        "unit":"Kg",
+        "department":"Cereals",
+        "notes":"Kohinoor basmati"
+
+
+    },
+    {
+        "slNo":2,
+        "name":"Wheat flour",
+        "quantity":5,
+        "unit":"Kg",
+        "department":"Cereals",
+        "notes":"Aashirvad atta"
+
+
+    },
+    {
+        "slNo":3,
+        "name":"Spinach",
+        "quantity":500,
+        "unit":"grams",
+        "department":"Veggies",
+        "notes":"Fresh "
+
+
+    },
+    {
+        "slNo":4,
+        "name":"Pumpkin",
+        "quantity":1,
+        "unit":"Number",
+        "department":"Veggies",
+        "notes":"Fresh"
+
+
+    },
+    {
+        "slNo":5,
+        "name":"Onion",
+        "quantity":1,
+        "unit":"Kg",
+        "department":"Veggies",
+        "notes":"Small onion"
+
+
+    },
+    {
+        "slNo":6,
+        "name":"Chilly powder",
+        "quantity":500,
+        "unit":"grams",
+        "department":"Spice-powder",
+        "notes":"Eastern"
+
+
+    },
+    {
+        "slNo":7,
+        "name":"Turmeric powder",
+        "quantity":500,
+        "unit":"grams",
+        "department":"Spice-powder",
+        "notes":"Eastern"
+
+
+    },
+    {
+        "slNo":8,
+        "name":"Sanitizer",
+        "quantity":3,
+        "unit":"Number",
+        "department":"Personal Care",
+        "notes":"Good Quality"
+
+
+    },
+    {
+        "slNo":9,
+        "name":"Soap",
+        "quantity":5,
+        "unit":"Number",
+        "department":"Personal Care",
+        "notes":"Dove"
+
+
+    },
+    {
+        "slNo":10,
+        "name":"Tooth paste",
+        "quantity":1,
+        "unit":"Number",
+        "department":"Personal Care",
+        "notes":"Colgate"
+
+
+    }
+]
