@@ -1,6 +1,7 @@
 function list() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
+      try{
         if (this.readyState == 4 && this.status == 200) {
             var response = JSON.parse(this.responseText);
             var output = "";
@@ -24,6 +25,11 @@ function list() {
             document.getElementById("tab").style.visibility = "visible";
             document.getElementById("content").innerHTML = output;
         }
+      }
+      catch(err)
+      {
+        console.log("Error :" + err);
+      }
     }
     xhttp.open("GET", "list.json", true);
     xhttp.send();
